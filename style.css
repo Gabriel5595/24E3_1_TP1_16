@@ -1,0 +1,24 @@
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  height: 100vh;
+}
+
+.container {
+  background-color: yellow;
+  display: grid;
+  grid-template-columns: 
+      [coluna-1] 1fr
+      [coluna-2] 2fr
+      [coluna-3] 1fr;
+  grid-template-rows: 
+      [linha-1]
+      [linha-2]
+      [linha-3];
+  gap: 1px;
+}
+
+.container div {
+  background-color: blue;
+}
